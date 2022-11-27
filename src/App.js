@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import VirtualList from './components/VirtualList';
+import VirtualTable from './components/VirtualTable';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>&#128512;虚拟列表</h2>
+      <VirtualList />
+      <h2>&#9996;虚拟表格</h2>
+      <VirtualTable />
     </div>
   );
 }
