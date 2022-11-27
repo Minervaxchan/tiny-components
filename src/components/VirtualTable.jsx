@@ -12,17 +12,20 @@ const columns = [
     dataIndex: 'name',
     key: 'name',
     width: 150,
+    ellipsis: true,
   },
   {
     title: '年龄',
     dataIndex: 'age',
     key: 'age',
     width: 150,
+    ellipsis: true,
   },
   {
     title: '住址',
     dataIndex: 'address',
     key: 'address',
+    ellipsis: true,
   },
 ]
 
